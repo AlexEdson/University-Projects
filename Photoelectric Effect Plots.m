@@ -1,4 +1,7 @@
 %%
+
+% This script takes the data acquired from the other script and manipulates it so that Planck's constant can be determined.
+
 y = dlmread('yellow.txt'); % Load in the data for each frequency of light
 g = dlmread('green.txt');
 b = dlmread('blue.txt');
