@@ -1,5 +1,8 @@
 %% Equipement configuration
 
+% This script can be used to configure the equipment required and acquire the data need to calculate Planck's constant using
+% the photoelectric effect.
+
 daq.reset       % Reset the device and clear the workspace
 clear, close all
 s = daq.createSession('ni');
