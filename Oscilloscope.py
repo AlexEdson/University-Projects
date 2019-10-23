@@ -6,7 +6,7 @@ import matplotlib.widgets as widgets
 import numpy as np
 import sys
 
-
+# This code generates an oscilloscope that can perform a Fourier transform on sine, sawtooth and square waves.
 
 class oscope_class:
 
